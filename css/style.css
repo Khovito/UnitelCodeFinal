@@ -1,0 +1,229 @@
+
+
+
+
+.logo {
+    width: 100%;
+}
+#menu li a:hover {
+    color: #f16223;
+    transition: .2s;
+}
+.funcionalidades {
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    align-items: center;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid;
+    border-color: #808080ff;
+    height: 600px;
+    margin: 0 0 0 100px;
+    padding: 0 50px 0 0;
+}
+.esquerda button {
+    width: 250px;
+}
+.direita {
+    margin: 100px 50px;
+}
+.linha1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.primeiro {
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 327px;
+}
+.segundo {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 327px;
+}
+.terceiro {
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 327px;
+}
+.quarto {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 327px;
+}
+.linha2 {
+    display: flex;
+}
+#turmas {
+    margin: 60px 200px;
+}
+#anuncios {
+    display: flex;
+    padding: 60px 200px;
+}
+.texto {
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 452px;
+}
+.anuncio1 {
+    display: flex;
+}
+.anuncio2 {
+    display: flex;
+    margin-top: 20px;
+}
+.anuncio3 {
+    display: flex;
+    margin-top: 20px;
+}
+.anuncio4 {
+    display: flex;
+    margin-top: 20px;
+}
+.imagem {
+    width: 190px;
+    height: 153px;
+}
+.texto a p {
+    color: #4d4d4dff;
+}
+.texto a h6 {
+    color: #000;
+}
+.texto a {
+    text-decoration: none;
+}
+.texto a:hover {
+    text-decoration: underline #4d4d4dff;
+}
+.pesquisaanuncio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.pesquisaanuncio form {
+    margin-left: 60px;
+}
+.pesquisaanuncio form input {
+    border-radius: 3px;
+}
+.pesquisaanuncio form  button {
+    border-radius: 3px;
+}
+#conteudos {
+    background-color: rgb(248, 247, 247);
+    padding: 60px 200px;
+}
+
+
+
+@media all and (max-width: 704px) {
+    .funcionalidades {
+        align-items: center;
+        flex-direction: column;
+    }
+    .esquerda {
+        border: none;
+        padding: 0 40px;
+        margin: 0;
+    }
+    .direita {
+        margin: 0;
+    }
+    .linha1 {
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .linha2 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .primeiro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        width: 400px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .segundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+    .terceiro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+    .quarto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+    }
+    .pesquisaanuncio {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;
+    }
+    .pesquisaanuncio form {
+        margin-left: 0;
+    }
+    #anuncios {
+        padding: 40px 30px;
+    }
+    .anuncio1 {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .anuncio2 {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .anuncio3 {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .anuncio4 {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .texto {
+        margin: 0;
+        margin-top: 20px;
+    }
+    #turmas {
+        margin: 60px 40px;
+    }
+    #conteudos {
+        padding: 60px 40px;
+    }
+}
